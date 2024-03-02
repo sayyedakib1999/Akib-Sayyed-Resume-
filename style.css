@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+}
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+#connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#connect a{
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+.left h2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.content{
+    font-size: large;
+    font-weight: 400;
+}
+.intro{
+    margin-left: 20px;  
+    line-height: 200%;
+}
+.vl{
+    border-left: 2px solid rgb(0, 0, 0);
+  height:18px;
+
+  margin: 10px 10px; 
+}
+#Qualification{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.date{
+    margin-left: -10%;
+    padding-right: 10%;
+    font-weight: 700;
+    font-size:120%;
+}
