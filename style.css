@@ -5,6 +5,7 @@
 }
 #main{
     width: 100%;
+    height: auto;
 }
 #name{
     display: flex;
@@ -21,6 +22,9 @@
     padding: 5px;
     text-decoration: none;
     color: #000000;
+}
+#connect a:hover{
+    color: blue;
 }
 .left h2{
     margin-top: 30px;
@@ -51,3 +55,30 @@
     font-weight: 700;
     font-size:120%;
 }
+ #list li{
+    list-style: none;
+ }
+
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  #text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  #image {
+    position: absolute;
+    top: -220px;
+    margin-left: 20%;
+    max-width: 200px; /* Adjust as needed */
+    display: none;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
