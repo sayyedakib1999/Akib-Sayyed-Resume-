@@ -72,3 +72,18 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   //  Hover 4end
+
+  //  Hover 5 Start
+  document.addEventListener('DOMContentLoaded', function() {
+    const text = document.getElementById('text5');
+    const image = document.getElementById('image5');
+  
+    text.addEventListener('mouseover', function() {
+      image.style.display = 'block';
+    });
+  
+    text.addEventListener('mouseout', function() {
+      image.style.display = 'none';
+    });
+  });
+  //  Hover 5end
