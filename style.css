@@ -63,89 +63,17 @@
     position: relative;
     display: inline-block;
   }
-
-  #text {
+    #text, #text1, #text2, #text3, #text4, #text5{
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px; /* Adjust as needed */
   }
-  #image {
-    position: absolute;
+  #image, #image1, #image2, #image3, #image4, #image5{
+              position: absolute;
     top: -220px;
     margin-left: 20%;
     max-width: 200px; /* Adjust as needed */
     display: none;
     transition: opacity 0.3s ease-in;
   }
-  #text1 {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px; /* Adjust as needed */
   }
-  #image1 {
-    position: absolute;
-    top: -220px;
-    margin-left: 20%;
-    max-width: 200px; /* Adjust as needed */
-    display: none;
-    transition: opacity 0.3s ease-in;
-  }
- 
-  #text2 {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px; /* Adjust as needed */
-  }
-  #image2 {
-    position: absolute;
-    top: -220px;
-    margin-left: 20%;
-    max-width: 200px; /* Adjust as needed */
-    display: none;
-    transition: opacity 0.3s ease-in;
-  }
-  
-  
-  #text3 {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px; /* Adjust as needed */
-  }
-  #image3 {
-    position: absolute;
-    top: -220px;
-    margin-left: 20%;
-    max-width: 200px; /* Adjust as needed */
-    display: none;
-    transition: opacity 0.3s ease-in;
-  }
- 
-  #text4 {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px; /* Adjust as needed */
-  }
-  #image4   {
-    position: absolute;
-    top: -220px;
-    margin-left: 20%;
-    max-width: 200px; /* Adjust as needed */
-    display: none;
-    transition: opacity 0.3s ease-in;
-  }
-
-  #text5 {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px; /* Adjust as needed */
-  }
-
-  #image5  {
-    position: absolute;
-    top: -220px;
-    margin-left: 20%;
-    max-width: 200px; /* Adjust as needed */
-    display: none;
-    transition: opacity 0.3s ease-in;
-  }
-  
