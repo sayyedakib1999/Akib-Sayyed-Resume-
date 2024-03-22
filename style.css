@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
 #main{
     width: 100%;
     height: auto;
@@ -55,7 +56,7 @@
     font-weight: 700;
     font-size:120%;
 }
- #list li{
+ .list li{
     list-style: none;
  }
 
@@ -75,4 +76,14 @@
     max-width: 200px; /* Adjust as needed */
     display: none;
     transition: opacity 0.3s ease-in;
+  }
+  #progress{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #progress a{
+    text-decoration: none;
+    color: #000000;
   }
