@@ -51,6 +51,7 @@
     align-items: center;
 }
 .date{
+    margin-top: -10px;
     margin-left: -10%;
     padding-right: 10%;
     font-weight: 700;
